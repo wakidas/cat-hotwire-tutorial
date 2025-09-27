@@ -1,0 +1,14 @@
+<div id="<%= dom_id cat %>">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title"><%= cat.name %></h5>
+      <p class="card-text">
+        <strong>年齢:</strong> <%= cat.age %>歳
+      </p>
+      <div class="d-flex justify-content-end">
+        <%= link_to "編集", edit_cat_path(cat), class: "btn btn-sm btn-outline-primary me-2" %>
+        <%= button_to "削除", cat_path(cat), method: :delete, data: { turbo_confirm: "本当に削除しますか？" }, class: "btn btn-sm btn-outline-danger" %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle check:*)",
+      "Read(//Users/wakidas/Library/CloudStorage/Box-Box/config/nvim/**)",
+      "Read(//Users/wakidas/.config/nvim/**)",
+      "Bash(find:*)",
+      "Read(//Users/wakidas/.config/alacritty/**)",
+      "Bash(nvim:*)",
+      "Read(//Users/wakidas/Library/CloudStorage/Box-Box/config/alacritty/**)",
+      "Bash(bundle exec rails:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
